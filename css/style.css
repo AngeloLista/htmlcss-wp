@@ -46,9 +46,32 @@ header ul a{
 
 #spotlight {
     height: 500px;
-    background-color: #e1d67a;
+
+    background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     margin-bottom: 30px;
+    border-radius: 10px;
+    position: relative;
 }
+
+
+.spotlight_text{
+    width: 55%;
+    position: absolute;
+    left: 50px;
+    bottom: 70px;
+    color: white;
+}
+
+
 
 /* Main */
 #container_main {
