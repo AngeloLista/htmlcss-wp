@@ -139,6 +139,11 @@ header ul a{
 
 
 footer {
-    background-color: #8701ff;
     text-align: center;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+footer span {
+    color: red;
 }
