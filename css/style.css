@@ -72,6 +72,13 @@ header ul a{
 }
 
 
+.spotlight_text h2 {
+    font-size: 37px;
+}
+
+.spotlight_text span {
+    font-size: 19.5px;
+}
 
 /* Main */
 #container_main {
@@ -80,7 +87,11 @@ header ul a{
 }
 
 .mini_header {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.mini_header h1 {
+    font-size: 39px;
 }
 
 .sidebar {
